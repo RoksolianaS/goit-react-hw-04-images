@@ -28,7 +28,6 @@ export const App = () => {
   const [isOpenModal, setModalOpen] = useState(false);
   const [modalData, setModalData] = useState([]);
   const [page, setPage] = useState(1);
-  const [isEmpty, setEmpty] = useState(false);
   const [isLoading, setLoading] = useState(false);
 
    useEffect(() => {
