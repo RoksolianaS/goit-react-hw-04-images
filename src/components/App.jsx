@@ -99,6 +99,7 @@ export const App = () => {
         onImageClick={handleOpenModal}
       />
       {isLoading && <Loader />}
+      {error && <div>Error: {error}</div>}
       {isOpenModal && (
         <Modal
           isOpenModal={isOpenModal}
